@@ -1,0 +1,246 @@
+/* NAVIGATION */
+.navi {
+	background-color: none;
+	height: 0rem;
+}
+
+.navi ul {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 3rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navi ul li {
+	display: inline;
+	position: relative;
+	float: center;
+	padding-right: 5rem;
+}
+
+.navi ul li a {
+	display: block;
+	text-decoration: dotted;
+	text-align: center;
+}
+
+#alignment {
+	text-align: center;
+}
+
+#logo {
+	background: #C5C1AA;
+	padding: 8em 0 8em 0;
+}
+#logo h1 {
+	font-family: Garamond, serif;
+	font-size: 6em;
+	line-height: 1.2em;
+}
+#logo h4 {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 1.5em;
+	letter-spacing: .5em;
+}
+#logo h6 {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: .8em;
+	padding-bottom: .8em;
+}
+
+.name {
+	position: relative;
+}
+	.name:before {
+		content: '';
+		position: absolute;
+		width: 50%;
+		left: 25%;
+		bottom: 170px;
+		border-bottom: 1px solid #000000;
+	}
+	.name:after {
+		content: '';
+		position: absolute;
+		width: 50%;
+		left: 25%;
+		bottom: -25px;
+		border-bottom: 1px solid #000000;
+	}
+
+.hr {
+	background: #000000;
+	display: block;
+	height: .1rem;
+	width: 50%;
+}
+
+#services {
+	background: #ecf0f1;
+	padding: 5em 0 5em 0;
+	width: 100%;
+}
+#services h4 {
+	position: relative;
+}
+	#services h4:after {
+		content: '';
+		position: absolute;
+		width: 83%;
+		left: 18%;
+		bottom: 5px;
+		border-bottom: 1px solid #000000;
+}
+#services ul {
+	padding-top: .8em;
+	padding-bottom: 3em;
+}
+#about {
+	background: #34495e;
+	padding: 5em 0 0 0;
+	width: 100%;
+}
+#about h4 {
+	position: relative;
+	color: #FFFFFF;
+}
+	#about h4:after {
+		content: '';
+		position: absolute;
+		width: 83%;
+		left: 18%;
+		bottom: 5px;
+		border-bottom: 1px solid #FFFFFF;
+}
+#about p {
+	margin: 0 2em 0 2em;
+	padding-top: 1.5em;
+	color: #FFFFFF;
+}
+#about img {
+	padding: 2em 0 5em 0;
+}
+#contact {
+	background: yellow;
+	color: white;
+	padding: 5em 0 5em 0;
+	width: 100%;
+}
+#contact ul {
+	list-style: none;
+	padding: 2em 0 0 0;
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/*** Media Queries ***/
+/* Smartphones - Portrait + Landscape */
+@media only screen and (min-device-width: 320px) and (max-width: 480px) {
+	#logo {
+		padding: 5em 0 5em 0;
+	}
+	#logo h1 {
+		font-size: 4em;
+		line-height: .8em;
+	}
+	#logo h4 {
+		font-size: 1em;
+		letter-spacing: .4em;
+		line-height: 2em;
+	}
+	#logo h6 {
+		font-size: .5em;
+		padding-bottom: .8em;
+	}
+	.name:before {
+		content: '';
+		position: absolute;
+		width: 80%;
+		left: 10%;
+		bottom: 150px;
+		border-bottom: 1px solid #000000;
+	}
+	.name:after {
+		content: '';
+		position: absolute;
+		width: 80%;
+		left: 10%;
+		bottom: -5px;
+		border-bottom: 1px solid #000000;
+	}
+	#services {
+		padding: 2em 0 0 0;
+	}
+	#services h4 {
+		position: relative;
+	}
+		#services h4:after {
+			width: 100%;
+			left: 0%;
+	}
+	#services ul {
+		padding: .8em 0 1em 0;
+	}
+	#about {
+	padding: 2em 0 0 0;
+	}
+		#about h4:after {
+			width: 100%;
+			left: 0%;
+		}
+	#about img {
+	padding: 2em 0 0 0;
+	}
+	#about p {
+	margin: 0 1em 0 1em;
+	padding: 2em 0 2em 0;
+	}
+	#contact {
+	padding: 2em 0 0 0;
+	}
+		#contact h4:after {
+			width: 100%;
+			left: 0%;
+		}
+	#about img {
+	padding: 2em 0 0 0;
+	}
+	#about ul {
+	margin: 0 1em 0 1em;
+	padding: 2em 0 2em 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
