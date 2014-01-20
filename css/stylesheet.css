@@ -1,6 +1,6 @@
 /* NAVIGATION */
 .navi {
-	background-color: #70be47;
+	background-color: rgba(151, 180, 105, 1);
 	height: 4rem;
 	text-align: center;
 	position: fixed;
@@ -34,7 +34,7 @@
 
 /*** LOGO ***/
 #logo {
-	background: #70be47;
+	background: rgba(151, 180, 105, 1);
 	padding: 8em 0 10em 0;
 }
 #logo h1 {
@@ -100,7 +100,7 @@
 	padding-bottom: 3em;
 }
 #about {
-	background: rgba(38, 42, 57, .7);
+	background: rgba(38, 42, 57, .8);
 	padding: 5em 0 0 0;
 	width: 100%;
 }
