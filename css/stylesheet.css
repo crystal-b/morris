@@ -1,10 +1,10 @@
 /* NAVIGATION */
 .navi {
-	background-color: white;
+	background-color: #70be47;
 	height: 4rem;
 	text-align: center;
 	position: fixed;
-	color: black;
+	color: #1f211c;
 	width: 100%;
 	z-index: 1;
 }
@@ -20,11 +20,13 @@
 	text-align: center;
 	float: center;
 	padding: 0 3em 0 3em;
+
 }
 .navi ul li a {
 	display: inline;
 	text-decoration: dotted;
 	text-align: center;
+	color: #1f211c;
 }
 #alignment {
 	text-align: center;
@@ -32,7 +34,7 @@
 
 /*** LOGO ***/
 #logo {
-	background: #C5C1AA;
+	background: #70be47;
 	padding: 8em 0 10em 0;
 }
 #logo h1 {
@@ -60,7 +62,7 @@
 		width: 50%;
 		left: 25%;
 		bottom: 170px;
-		border-bottom: 1px solid #000000;
+		border-bottom: 1px solid #1f211c;
 	}
 	.name:after {
 		content: '';
@@ -68,11 +70,11 @@
 		width: 50%;
 		left: 25%;
 		bottom: -25px;
-		border-bottom: 1px solid #000000;
+		border-bottom: 1px solid #1f211c;
 	}
 
 .hr {
-	background: #000000;
+	background: #1f211c;
 	display: block;
 	height: .1rem;
 	width: 50%;
@@ -90,16 +92,15 @@
 		content: '';
 		position: absolute;
 		width: 83%;
-		left: 18%;
 		bottom: 5px;
-		border-bottom: 1px solid #000000;
+		border-bottom: 1px solid #1f211c;
 }
 #services ul {
 	padding-top: .8em;
 	padding-bottom: 3em;
 }
 #about {
-	background: #34495e;
+	background: rgba(38, 42, 57, .7);
 	padding: 5em 0 0 0;
 	width: 100%;
 }
@@ -110,28 +111,43 @@
 	#about h4:after {
 		content: '';
 		position: absolute;
-		width: 83%;
-		left: 18%;
+		width: 75%;
 		bottom: 5px;
-		border-bottom: 1px solid #FFFFFF;
+		border-bottom: 1px solid #FFFFFF !important;
 }
 #about p {
+	font-family: Garamond, serif !important;
+	font-size: 1.7em;
 	margin: 0 2em 0 2em;
-	padding-top: 1.5em;
+	padding-top: 1em;
 	color: #FFFFFF;
 }
 #about img {
 	padding: 2em 0 5em 0;
 }
 #contact {
-	background: yellow;
-	color: white;
+	background: #ecf0f1;
+	color: #1f211c;
 	padding: 5em 0 5em 0;
 	width: 100%;
 }
+#contact h4 {
+	position: relative;
+	color: #1f211c;
+}
+	#contact h4:after {
+		content: '';
+		position: absolute;
+		width: 90%;
+		bottom: 5px;
+		border-bottom: 1px solid #1f211c !important;
+	}
 #contact ul {
 	list-style: none;
-	padding: 2em 0 0 0;
+	padding: 2em 0 1em 0;
+}
+#contact ul li {
+	color: #1f211c;
 }
 .google-maps {
     position: relative;
