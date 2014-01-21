@@ -91,7 +91,7 @@
 	#services h4:after {
 		content: '';
 		position: absolute;
-		width: 83%;
+		width: 83% !important;
 		bottom: 5px;
 		border-bottom: 1px solid #1f211c;
 }
@@ -111,13 +111,13 @@
 	#about h4:after {
 		content: '';
 		position: absolute;
-		width: 75%;
+		width: 85% !important;
 		bottom: 5px;
 		border-bottom: 1px solid #ecf0f1 !important;
 }
 #about p {
 	font-family: Garamond, serif !important;
-	font-size: 1.7em;
+	font-size: 1.6em;
 	margin: 0 2em 0 2em;
 	padding-top: 1em;
 	color: #ecf0f1;
@@ -138,7 +138,7 @@
 	#contact h4:after {
 		content: '';
 		position: absolute;
-		width: 90%;
+		width: 90% !important;
 		bottom: 5px;
 		border-bottom: 1px solid #1f211c !important;
 	}
@@ -148,11 +148,9 @@
 	display: inline-block;
 }
 #contact ul li {
-	width: 400px;
-}
-#contact ul h5 {
 	color: #1f211c;
 	font-size: 1em;
+	padding: 0 0 1em 0;
 }
 #contact a img {
 	padding: .2em 0 0 0;
@@ -162,6 +160,7 @@
     padding-bottom: 56.25%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
+    margin-top: 2.8em;
 }
 .google-maps iframe {
     position: absolute;
@@ -251,14 +250,25 @@
 			width: 100%;
 			left: 0%;
 		}
+	#about p {
+	font-size: 1em;
+	margin: 0 .7em 0 .7em;
+	padding: 1em 0 1.5em 0;
+	color: #ecf0f1;
+	}
 	#about img {
-	padding: 2em 0 0 0;
+	padding: 1em 0 0 0;
 	}
 	#about ul {
 	margin: 0 1em 0 1em;
 	padding: 2em 0 2em 0;
 	}
-	
+	#contact ul h5 {
+	font-size: .9em;
+	}
+	.google-maps {
+    margin-top: .8em;
+	}
 }
 
 
