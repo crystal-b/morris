@@ -223,8 +223,7 @@
 		position: relative;
 	}
 		#services h4:after {
-			width: 100%;
-			left: 0%;
+			width: 0%;
 	}
 	#services ul {
 		padding: 0 0 0 0;
@@ -233,8 +232,7 @@
 	padding: 2em 0 0 0;
 	}
 		#about h4:after {
-			width: 100%;
-			left: 0%;
+			width: 0%;
 		}
 	#about img {
 	padding: 2em 0 0 0;
@@ -260,8 +258,7 @@
 	padding: 2em 0 3em 0;
 	}
 		#contact h4:after {
-			width: 100%;
-			left: 0%;
+			width: 0%;
 		}
 	#contact ul h5 {
 	font-size: .9em;
@@ -276,13 +273,13 @@
 	position: relative;
 	}
 		#services h4:after {
-		width: 80% !important;
+		width: 0% !important;
 		}
 	#about h4 {
 	position: relative;
 	}
 		#about h4:after {
-		width: 80% !important;
+		width: 0% !important;
 		}
 	#about img {
 	padding: 2em 2em 3em 2em;
@@ -291,7 +288,7 @@
 	position: relative;
 	}
 		#contact h4:after {
-		width: 80% !important;
+		width: 0% !important;
 		}
 }
 
