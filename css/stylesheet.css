@@ -170,11 +170,11 @@
     height: 100% !important;
 }
 
-/*** Media Queries ***/
+/*** MEDIA QUERIES ***/
 /* Smartphones - Portrait + Landscape */
 @media only screen and (min-device-width: 320px) and (max-width: 480px) {
 	.navi {
-		height: 3rem;
+		height: 2rem;
 	}
 	.navi ul {
 		font-size: .9rem;
@@ -243,14 +243,7 @@
 	margin: 0 1em 0 1em;
 	padding: 2em 0 2em 0;
 	}
-	#contact {
-	padding: 2em 0 0 0;
-	}
-		#contact h4:after {
-			width: 100%;
-			left: 0%;
-		}
-	#about p {
+	/*#about p {
 	font-size: 1em;
 	margin: 0 .7em 0 .7em;
 	padding: 1em 0 1.5em 0;
@@ -258,11 +251,18 @@
 	}
 	#about img {
 	padding: 1em 0 0 0;
-	}
+	}*/
 	#about ul {
 	margin: 0 1em 0 1em;
 	padding: 2em 0 2em 0;
 	}
+	#contact {
+	padding: 2em 0 3em 0;
+	}
+		#contact h4:after {
+			width: 100%;
+			left: 0%;
+		}
 	#contact ul h5 {
 	font-size: .9em;
 	}
@@ -270,6 +270,32 @@
     margin-top: .8em;
 	}
 }
+/* iPad - Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#services h4 {
+	position: relative;
+	}
+		#services h4:after {
+		width: 80% !important;
+		}
+	#about h4 {
+	position: relative;
+	}
+		#about h4:after {
+		width: 80% !important;
+		}
+	#about img {
+	padding: 2em 2em 3em 2em;
+	}
+	#contact h4 {
+	position: relative;
+	}
+		#contact h4:after {
+		width: 80% !important;
+		}
+}
+
+
 
 
 
