@@ -1,10 +1,9 @@
 /* NAVIGATION */
 .navi {
-	background-color: rgba(151, 180, 105, 1);
+	background-color: #d9d2c9;
 	height: 4rem;
 	text-align: center;
 	position: fixed;
-	color: #1f211c;
 	width: 100%;
 	z-index: 1;
 }
@@ -34,7 +33,8 @@
 
 /*** LOGO ***/
 #logo {
-	background: rgba(151, 180, 105, 1);
+	background: #d9d2c9;
+	/*background: rgba(151, 180, 105, 1);*/
 	padding: 8em 0 10em 0;
 }
 #logo h1 {
@@ -81,8 +81,8 @@
 }
 
 #services {
-	background: #ecf0f1;
-	padding: 5em 0 5em 0;
+	background: #1abc9c;
+	padding: 5em 0 0 0;
 	width: 100%;
 }
 #services h4 {
@@ -100,7 +100,7 @@
 	padding-bottom: 3em;
 }
 #about {
-	background-color: rgba(15, 26, 64, .8);
+	background-color: rgba(88, 77, 73, 1);
 	padding: 5em 0 0 0;
 	width: 100%;
 }
